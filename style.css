@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --black:#000000;
+    --white:#ffffff;
+}
+header{
+    background: #DADEDF;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+}
+header nav a h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+header nav ul{
+
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto 15px;
+}
+
+/* Home */
+
+.home{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .heading{
+
+}
+.home .heading h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600    ;
+}
+.home .heading h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+.home .heading a.btn{
+    width: 130px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-size: 18px;
+    margin: auto;
+    border-radius: 8px;
+    background: red;
+}
+
+/* Skills */
+
+.skills{
+    max-width: 1400px;
+    height: auto;
+    margin: 30px auto;
+}
+.skills h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.skills .box{
+    width: 400px;
+    height: auto;
+    margin: 33.33px;
+    float: left;
+    box-shadow: 0px 0px 20px -2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.skills .box center img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+.skills .box h3{
+    font-size: 22px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.skills .box p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+    line-height: 24px;
+}
+
+/* Contact */
+
+.contact{
+    clear: both;
+    max-width: 1400px;
+    height: auto;
+    margin: 30px auto;
+}
+.contact h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.contact .contactbox{
+    width: 700px;
+    float: left;
+    height: auto;
+}
+.contact .contactbox .row{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.contact .contactbox .row .icon{
+    width: 70px;
+    height: 70px;
+    background: antiquewhite;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .contactbox .row .icon i{
+    font-size: 30px;
+    color: gold;
+}
+.contact .contactbox .row .contant{
+    margin-left: 20px;
+}
+.contact .contactbox .row .contant h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+.contact .contactbox .row .contant p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.contact .contactbox .row .contant a{
+    font-size: 18px;
+    font-weight: 400;
+}
+.contact .contactbox form{
+
+}
+.contact .contactbox form input{
+    display: block;
+    width: 500px;
+    height: 42px;
+    margin: 20px 0px;
+    border: none;
+    background: aliceblue;
+    border-radius: 8px;
+}
+.contact .contactbox form textarea{
+    display: block;
+    width: 500px;
+    height: 100px;
+    margin: 20px 0px;
+    border: none;
+    background: aliceblue;
+    border-radius: 8px;
+}
+.contact .contactbox form input.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 45px;
+    background: red;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Footer */
+
+footer{
+    clear: both;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+footer .p{
+
+}
+footer .p p{
+
+}
+footer .social{
+
+}
+footer .social i{
+    font-size: 28px;
+    margin: auto 10px;
+}
